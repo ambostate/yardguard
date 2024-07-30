@@ -3,52 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YardGuard - Home Intruder Detection App</title>
+    <meta name="description" content="YardGuardAI - Your automated wildlife detection system. Experience the future of animal detection with real-time monitoring.">
+    <title>YardGuardAI - Advanced Wildlife Detection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            color: #f0f0f0;
+            background-color: #1a1a1a;
+            line-height: 1.6;
             margin: 0;
             padding: 20px;
         }
         header {
-            background: #007bff;
-            color: white;
-            padding: 10px;
+            background: #2c3e50;
+            padding: 15px 0;
             text-align: center;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        h1, h2, h3 {
+            color: #ecf0f1;
         }
         section {
-            margin: 20px 0;
-            padding: 20px;
-            background: white;
+            margin-bottom: 20px;
+            background: #34495e;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #2980b9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        ul li:hover {
+            background: #3498db;
         }
         footer {
             text-align: center;
+            padding: 10px;
+            background: #2c3e50;
             margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            section {
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Welcome to YardGuard</h1>
-    <p>Your AI-powered home yard security solution.</p>
+    <h1>Welcome to YardGuardAI</h1>
+    <p>Automated wildlife detection for the modern world!</p>
 </header>
 
 <section>
-    <h2>About YardGuard</h2>
-    <p>YardGuard is an innovative application that uses AI algorithms to monitor your home’s yard for intruders. Get real-time alerts and insights.</p>
+    <h2>Overview</h2>
+    <p>YardGuardAI utilizes state-of-the-art computer vision and sound technology to monitor your environment for wildlife. Continuously operational, it seamlessly detects and identifies various animals in real-time.</p>
 </section>
 
 <section>
-    <h2>Get Started</h2>
-    <p><a href="https://github.com/ambostate/yardguard" target="_blank">View the GitHub Repository</a></p>
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Real-time Motion Detection:</strong> Instantly captures movement in your surroundings.</li>
+        <li><strong>AI-Driven Animal Identification:</strong> Utilizes advanced algorithms to recognize and classify animals.</li>
+        <li><strong>Dynamic Sound Playback:</strong> Plays specific sounds or frequencies tailored to the identified animal.</li>
+        <li><strong>Customizable Sound Files:</strong> Easily add or modify sound triggers for different animals.</li>
+        <li><strong>Next-Gen User Interface:</strong> Experience a sleek and intuitive GUI for user engagement.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>How It Works</h2>
+    <ol>
+        <li><strong>Setup:</strong> Connect your webcam and initiate the application.</li>
+        <li><strong>Continuous Monitoring:</strong> The system tracks video frames and identifies motion.</li>
+        <li><strong>Intelligent Analysis:</strong> Captured frames are analyzed via AI for animal identification.</li>
+        <li><strong>Interactive Sound Response:</strong> Sounds are activated based on detected animals.</li>
+        <li><strong>Historic Logging:</strong> Images and events are logged for future reference.</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Frequently Asked Questions</h2>
+    <h3>What types of animals can YardGuardAI detect?</h3>
+    <p>Our AI can recognize a wide range of animals, including deer, raccoons, and birds, among others.</p>
+    
+    <h3>What hardware is necessary?</h3>
+    <p>A simple webcam and a sound system are required for optimal performance.</p>
+    
+    <h3>Can I customize the sound files played?</h3>
+    <p>Absolutely! You can easily replace or add new sound files in the <code>sound_files</code> directory.</p>
+    
+    <h3>Is there a user manual available?</h3>
+    <p>While there isn't a formal user manual yet, feel free to reach out for support.</p>
+    
+    <h3>What's next for YardGuardAI?</h3>
+    <p>Stay tuned for updates as we continuously improve the app with AI advancements and additional features!</p>
 </section>
 
 <footer>
-    <p>&copy; 2023 YardGuard. All rights reserved.</p>
+    <p>&copy; 2024 YardGuardAI. All rights reserved.</p>
+    <a href="https://github.com/ambostate/yardguard" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
 </footer>
 
 </body>
